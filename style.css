@@ -1,0 +1,241 @@
+@font-face {
+  font-family: title;
+  src: url(rose-madina-rose-madina-regular-modern-400.ttf);
+}
+@font-face {
+  font-family: description;
+  src: url(rose-madina-rose-madina-regular-400.ttf);
+} 
+
+@font-face {
+  font-family: body;
+  src: url(NT\ Marley\ Light\ \(only\ personal\ use\).otf);
+}
+
+@media (min-width: 1200px) {
+  .display-5 {
+      font-size: 5rem;
+  }
+}
+@media (min-width:319px) and (max-width:480px) {
+  .skills-background {
+    height:120vh;
+  }
+
+  .skilll {
+    padding-left: 45px;
+  }
+  .prev {
+    width:100%;
+  }
+
+  .display-5 {
+    font-size: calc(2.3rem + 2.5vw);
+  }
+
+    h1 {
+      text-align: center;
+    }
+
+    .edd {
+     margin-bottom: 0px;
+     font-weight: 900;
+    }
+
+    .table {
+      padding-top: 0px;
+      display: block;
+    }
+
+    .ed-col {
+      height:16rem;
+    }
+
+    #ed-tit {
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+
+    .ed-des {
+      margin-bottom: 0px;
+      
+    }
+
+    .pls {
+      margin-top: 5px;
+      margin-bottom: 5px ;
+    }
+
+    #oval {
+      margin-left: 40px;
+    }
+    
+    #projects {
+      padding-top: 50px;
+    }
+  }
+    
+
+h1 {
+  font-family: title;
+ align-items: left;
+ font-size: 550px;
+ color:#FDF7E4;
+}
+
+h2 {
+  font-family: title;
+  color:#FDF7E4;
+}
+
+.h2, h2 {
+  font-size: calc(3rem + .9vw);
+}
+
+.lh-1 {
+  line-height: 1.5 !important;
+}
+
+.lead {
+  font-family: title;
+}
+
+#oval {
+  height: 500px;
+  width: 450px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+#top {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#button {
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFE0B5;
+  font-family: body;
+
+}
+
+.title-background {
+  background-color: #A79277;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+}
+
+.education-background {
+  background-color: #A79277;
+  font-family: body;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.skills-background {
+  background-color: #A79277;
+  font-family: body;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.portfolio-web {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+#ed {
+  justify-content: center;
+ color: #A79277;
+}
+
+#ed-tit{
+  text-align: center;
+  font-family: description;
+ font-size:20px;
+}
+
+.ed-des{
+  text-align: center;
+  font-family: body;
+  font-size: 22px;
+}
+
+.lh-2 {
+  line-height: 1.5 !important;
+}
+
+.feature {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3C2A21;
+  border-radius: 15%;
+  margin-right: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.carousel {
+  justify-content: center;
+  width: 50%;
+  height: 25%;
+  display: flex;
+}
+
+H4 {
+  font-family: description;
+  font-size: 1.5rem;
+text-align: center;
+margin-top: 1rem;
+}
+
+#skill {
+  border-radius: 50%;
+ 
+}
+
+.tindog-background {
+  background-color: #A79277;
+  font-family: body;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.future-background {
+  background-color: #A79277;
+  font-family: body;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.footer-background {
+  background-color: #A79277;
+  font-family: body;
+  scroll-snap-align: start;
+  width: 100%;
+
+}
+
+#projects {
+  font-family: title;
+  color:#FDF7E4;
+  align-items: start;
+  text-align: left;
+}
+
+.table {
+  padding-top: 30px;
+}
+
